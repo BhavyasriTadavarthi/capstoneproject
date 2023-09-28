@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>recipe book</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+       *{
+    margin:0;
+    padding:0;
+    box-shadow: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90deg,#ff4d00,#5fea94);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    width: 100%;
+    height: 100px;
+}
+.logo{
+    font-size: 4rem;
+    color: #fff;
+    /* margin-top: 200px; */
+    /* padding-top: 200px; */
+    filter: drop-shadow(5px 5px 5px grey);
+}
+nav .log{
+    font-size: 2rem;
+    color:#fff;
+    font-weight: 700;
+}
+ul{
+    text-transform: uppercase;
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0 35px;
+    font-size: 1.2rem;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+nav a:hover{
+    border-bottom: 2px solid hsl(0,0%,100%);
+    transition: 1s;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 300px;
+}
+.content img{
+    width: 35rem;
+}
+.about{
+    color: #fff;
+    width: 300px;
+    height: 400px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 200px;
+    margin-right: 50px;
+}
+.about h2{
+    font-size:2.4rem;
+}
+.french-fires{
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    margin-top: 200px;
+    left:0;
+    pointer-events:none;
+}
+.french-fires img{
+    margin-left: 100px;
+    width: 340px;
+} 
+.s1{
+    float: left; 
+    width: 85%; 
+    /* padding: 10px; */
+    font-size: 2rem;
+    color: #fff;
+
+}
+.section-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    /* background-color: #f2f2f2;  */
+    
+}
+
+.section-1 .table {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.section-1 a {
+    text-decoration: none;
+    text-align: center;
+    color: #000; /* Add your text color */
+}
+
+.section-1 img {
+    max-width: 100%;
+    height: 150;
+    border: 5px solid white;
+    filter: drop-shadow(5px 5px 5px grey);
+    transition: transform 0.3s;
+    
+}
+ .section-1 img:hover {
+            transform: scale(1.2); 
+        }
+
+.section-1 h4 {
+    margin-top: 10px;
+    font-size: 16px; /* Add your font size */
+}
+footer{
+        width: 100%;
+        height:50px;
+        background-color: black;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
+        bottom:0;
+        color: #fff;
+}
+    </style>
+    
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">RECIPE BOOK </div>
+        <ul>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="signup">Signup</a></li>
+            <li><a href="signin">Login</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="about">
+            <h2>About us</h2>
+            <p>Have an amazing experience with our Recipe  Book services.</p>
+        </div>
+     <img src="https://media.istockphoto.com/id/471761474/vector/a-pattern-of-cookery-icons-under-a-recipe-book-logo.jpg?s=612x612&w=0&k=20&c=7X5AirdGT1TRoWl1qzWXYU1rxC7OQhzgRYpMWJCllWg=">
+    </div>
+    <section class="s1">
+        <p>Our Specials Recipes For You</p>
+    </section>
+    <section class="section-1">
+        <div class="table">
+            <a href="#">
+                <img src="https://thumbs.dreamstime.com/b/chicken-dum-biryani-white-bowl-traditional-indian-one-pot-dish-background-high-angle-view-156498926.jpg" height="150">
+                <h4>Biryani</h4>
+            </a>
+            <a href="#">
+                <img src="https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2tlbiUyMGZvb2R8ZW58MHx8MHx8fDA%3D&w=1000&q=80" height="150">
+                <h4>Chicken Lolipop</h4>
+            </a>
+            <a href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_jkIooACCjsT6ynxaGpL3MNFD27uBC8qbkZ82T9B8Q&s" height="150">
+                <h4>Panner Tikka</h4>
+            </a>
+            <a href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEt-UZWyLsaO1VRFrHBn859IsULl_xcXjGSnLtXLmudg&s" height="150">
+                <h4>Garlic Prawns</h4>
+            </a>
+            <a href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_SaCXRThS2Ebu5PFaAMbZM3GMXao42iKrOtAluroASA&s" height="150">
+                <h4>Veg Pulao</h4>
+            </a>
+            <a href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfpssnR3glfjrAF3btvQ_gbSbcU6pPJiegMd2y4wkPiQ&s" height="150">
+                <h4>Apollo fish</h4>
+            </a>
+        </div>
+    </section>
+        <footer>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcPHhAvPU44-W1V_kmvLr3yXcZ9oM8FrLuOw&usqp=CAU" width="50px" height="50px" style="padding-left: 15px;"/>
+            <p style="color:white; font-size: 21px; justify-content: center;">&copy; 2023 CookingBook</p>
+            <div style="width:300px; display: flex; justify-content: space-between; align-items: center;">
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_48,h_48/icon-facebook_tfqsuc" width="14" height="14" style="padding-right: 10px;"/>
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_48,h_48/icon-pinterest_kmz2wd" width="14" height="14" style="padding-right: 12px;"/>
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_48,h_48/icon-instagram_b7nubh" width="14" height="14"style="padding-right: 14px;"/>
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_48,h_48/icon-twitter_gtq8dv" width="14" height="14" style="padding-right: 16px;"/>
+    </div>
+</footer>
+</body>
+</html>
